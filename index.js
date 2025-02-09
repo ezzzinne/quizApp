@@ -55,7 +55,7 @@ function nextQuestion(chosenAnswer) {
 
 function showResults() {
     question.style.display = attempt.style.display = option.style.display = nextBtn.style.display = h1.style.display = "none";
-    score.textContent = `You have scored ${mark} / ${questions.length}`;
+    score.textContent = `You scored ${mark} / ${questions.length}`;
     score.style.display = "block";
     score.style.fontWeight = "bold";
     score.style.padding = "10px";
